@@ -1,27 +1,35 @@
 {
-  "name": "express-sendfile",
-  "version": "0.0.0",
-  "description": "Demo of using res.sendFile()",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
+  "name": "perfectgrandchild",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A chat bot acting as a perfect grandchild to grandparents",
+  "keywords": [
+    "perfect",
+    "grandchild",
+    "elderly"
+  ],
+  "author": {
+    "name": "Miffy Chen",
+    "email": "mchen15@bu.edu"
+  },
+  "homepage": "http://perfectgrandchild.azurewebsites.net",
+  "directories": {
+    "doc": "docs",
+    "src": "src"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/scotch-io/express-sendfile.git"
+    "url": "git://github.com/miffycs/perfectgrandchild.git"
   },
-  "author": "Chris Sevilleja (scotch.io)",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scotch-io/express-sendfile/issues"
+    "url": "https://github.com/miffycs/perfectgrandchild/issues"
   },
   "dependencies": {
     "express": "^4.16.4"
   },
-  "homepage": "https://github.com/scotch-io/express-sendfile#readme",
-  "directories": {
-    "doc": "docs",
-    "test": "tests"
-  },
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
 }
