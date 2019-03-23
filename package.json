@@ -1,0 +1,28 @@
+{
+  "name": "express-sendfile",
+  "version": "0.0.0",
+  "description": "Demo of using res.sendFile()",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scotch-io/express-sendfile.git"
+  },
+  "author": "Chris Sevilleja (scotch.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scotch-io/express-sendfile/issues"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "homepage": "https://github.com/scotch-io/express-sendfile#readme",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {}
+}
