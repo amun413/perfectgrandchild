@@ -1,6 +1,6 @@
 {
   "name": "Perfect Grandchild",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "description": "A chat bot acting as a perfect grandchild to grandparents",
   "main": "server.js",
